@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "LittleLemonApp",
-    "slug": "LittleLemonApp",
+    "slug": "littlelemonapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,6 +25,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d11d196f-c2e3-4d54-9a79-e09226409318"
+      }
+    },
+    "owner": "trpark"
   }
 }
